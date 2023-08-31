@@ -13,10 +13,15 @@
   --DAIRY: #fcfcfc;
 }
 
+body {
+  font-family: Roboto, Sans Serif;
+  color: var(--SLATE);
+}
+
 .header-logo {
   text-decoration: none;
   color: var(--NAVY-BLUE);
-  font-family: Raleway, Arial;
+  font-family: Raleway, Sans Serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -43,7 +48,6 @@ ul {
 .contacts-link {
   text-decoration: none;
   color: var(--NAVY-BLUE);
-  font-family: Roboto, Arial;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -54,7 +58,6 @@ ul {
 /*add this class on current active page*/
 .active-link {
   color: var(--OCEAN);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -66,7 +69,6 @@ ul {
 .portfolio-link:active,
 .contacts-link:active {
   color: var(--OCEAN);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -84,7 +86,6 @@ ul {
   text-decoration: none;
   font-style: normal;
   color: var(--SLATE);
-  font-family: Roboto, Arial;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -92,10 +93,13 @@ ul {
   letter-spacing: 0.32px;
 }
 
+.mail-link:hover,
+.tel-link:hover,
+.mail-link:focus,
+.tel-link:focus,
 .mail-link:active,
 .tel-link:active {
   color: var(--OCEAN);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -114,7 +118,6 @@ h1 {
   color: var(--WHITE);
   width: 496px;
   text-align: center;
-  font-family: Roboto, Arial;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -127,12 +130,12 @@ h1 {
   background: var(--IRIS);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 24px 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .button-order-service:hover {
@@ -140,7 +143,6 @@ h1 {
   background: var(--OCEAN);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -151,7 +153,6 @@ h1 {
 h2 {
   color: var(--NAVY-BLUE);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -161,7 +162,6 @@ h2 {
 }
 
 h3 {
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -176,7 +176,6 @@ h3 {
 .feature-item-content,
 .project-type {
   color: var(--SLATE);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -193,7 +192,6 @@ h3 {
 .member-title {
   color: var(--SLATE);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -203,7 +201,6 @@ h3 {
 
 .footer-text {
   color: var(--CLOUD);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -236,7 +233,6 @@ footer {
   border: 1px solid var(--CORNFLOWER);
   color: var(--IRIS);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -253,12 +249,12 @@ footer {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   color: var(--WHITE);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .project-title {
