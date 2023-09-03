@@ -46,26 +46,16 @@ body {
 .nav-link {
   text-decoration: none;
   color: var(--NAVY-BLUE);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-/*add this class on current active page*/
-.active-link {
-  color: var(--OCEAN);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
+.active-link,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
   color: var(--OCEAN);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -76,8 +66,6 @@ body {
   text-decoration: none;
   color: var(--SLATE);
   font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -89,24 +77,18 @@ body {
 .mail-link:active,
 .tel-link:active {
   color: var(--OCEAN);
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .hero-section {
   background-color: var(--NAVY-BLUE);
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 
 .main-header {
   color: var(--WHITE);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07143;
   letter-spacing: 1.12px;
 }
@@ -115,7 +97,7 @@ body {
   border-radius: 4px;
   background: var(--IRIS);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  /* text content */
+
   color: var(--WHITE);
   font-size: 16px;
   font-weight: 500;
@@ -127,72 +109,46 @@ body {
 .button-order-service:hover,
 .button-order-service:focus,
 .button-order-service:active {
-  border-radius: 4px;
   background: var(--OCEAN);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--WHITE);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
 }
 
-.header-2 {
+.section-header {
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .feature-item,
+.team-member,
 .project-title {
   color: var(--NAVY-BLUE);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 .feature-item-content,
 .project-type {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .team-member {
-  color: var(--NAVY-BLUE);
   text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.4px;
 }
 
 .member-title {
   text-align: center;
-  font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.footer-text {
-  color: var(--CLOUD);
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.footer {
+.page-footer {
   background-color: var(--NAVY-BLUE);
-  width: 1440px;
-  height: 312px;
 }
 
 .footer-logo {
@@ -200,11 +156,16 @@ body {
   color: var(--CLOUD);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.16667;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.footer-text {
+  color: var(--CLOUD);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .filter-button {
@@ -214,7 +175,6 @@ body {
   color: var(--IRIS);
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -224,16 +184,9 @@ body {
 .filter-button:focus,
 .filter-button:active,
 .filter-active {
-  border-radius: 4px;
   background: var(--OCEAN);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   color: var(--WHITE);
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
   cursor: pointer;
 }
